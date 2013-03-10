@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app="form_app">
+  <head>
+  <meta charset="utf-8">
+  <title>Form Directives</title>
+  <link rel="stylesheet" href="public/libs/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="public/styles/style.css">
+  <link rel="stylesheet" href="public/libs/bootstrap/css/bootstrap-responsive.css">
+  <link rel="stylesheet" href="public/libs/font-awesome/css/font-awesome.min.css">
+<!--  <link rel="stylesheet" href="public/libs/google-code-prettify-lite/prettify.css">-->
+  </head>
+  <body ng-controller="MainCtrl">
+    <header id="header" class="well navbar">
+      <nav class="clearfix navbar-inner">
+        <a
+          class="brand"
+          href="http://localhost/testpoject/AngularJS_tests/form_directives/"
+        >
+          Form Directives
+        </a>
+        <ul class="nav">
+          <li
+            ng-show="nav_item.visible"
+            ng-class="nav_item.active"
+            class="{{nav_item.class}}"
+            ng-repeat="nav_item in nav_items"
+          >
+            <a
+              href="#/{{nav_item.href}}"
+              ng-click="activate(nav_item)"
+            >
+              {{nav_item.label}}
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container well" ng-view></section>
+    <footer class="well text-center navbar-fixed-bottom">
+      &#169; Copyrights Stuff 2013 &#169;
+    </footer>
+    <script src="public/libs/jquery/jquery.min.js"></script>
+<!--    <script src="public/libs/google-code-prettify-lite/prettify.js"></script>-->
+    <script src="public/libs/angular/angular.min.js"></script>
+<!--    <script src="public/libs/showdown/src/showdown.js"></script>-->
+    <script src="public/libs/underscore/underscore-min.js"></script>
+    <script src="public/scripts/controllers.js"></script>
+    <script src="public/scripts/directives.js"></script>
+    <script src="public/scripts/app.js"></script>
+    <script src="public/scripts/services.js"></script>
+    <script src="public/scripts/filters.js"></script>
+  </body>
+</html>

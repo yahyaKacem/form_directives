@@ -2,6 +2,11 @@
   "name": "Form Directives",
   "version": "0.0.1",
   "dependencies": {
-    "angular": null
+    "angular": null,
+    "showdown": null,
+    "bootstrap": null,
+    "underscore": null,
+    "font-awesome": null,
+    "google-code-prettify-lite": null
   }
 }

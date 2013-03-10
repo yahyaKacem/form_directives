@@ -1,0 +1,170 @@
+[
+  {
+    "active":  "",
+    "visible": true,
+    "tag":     "email",
+    "href":    "email",
+    "class":   "email",
+    "label":   "E-mail"
+  },
+  {
+    "active":  "",
+    "visible": true,
+    "tag":     "url",
+    "href":    "url",
+    "class":   "url",
+    "label":   "Url"
+  },
+  {
+    "active":  "",
+    "visible": true,
+    "href":    "btn",
+    "tag":     "button",
+    "class":   "button",
+    "label":   "Button"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "submit",
+    "href":    "submit",
+    "class":   "submit",
+    "label":   "Submit"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "reset",
+    "href":    "reset",
+    "class":   "reset",
+    "label":   "Reset"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "tel",
+    "href":    "tel",
+    "class":   "tel",
+    "label":   "Tel"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "date",
+    "href":    "date",
+    "class":   "date",
+    "label":   "Date"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "time",
+    "href":    "time",
+    "class":   "time",
+    "label":   "time"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "week",
+    "href":    "week",
+    "class":   "week",
+    "label":   "week"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "color",
+    "href":    "color",
+    "class":   "color",
+    "label":   "color"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "month",
+    "href":    "month",
+    "class":   "month",
+    "label":   "month"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "range",
+    "href":    "range",
+    "class":   "range",
+    "label":   "range"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "radio",
+    "href":    "radio",
+    "class":   "radio",
+    "label":   "radio"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "number",
+    "href":    "number",
+    "class":   "number",
+    "label":   "number"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "search",
+    "href":    "search",
+    "class":   "search",
+    "label":   "search"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "dateTime",
+    "href":    "dateTime",
+    "class":   "dateTime",
+    "label":   "dateTime"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "checkbox",
+    "href":    "checkbox",
+    "class":   "checkbox",
+    "label":   "checkbox"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "textarea",
+    "href":    "textarea",
+    "class":   "textarea",
+    "label":   "textarea"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "multiSelect",
+    "href":    "multiSelect",
+    "class":   "multiSelect",
+    "label":   "multiSelect"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "singleSelect",
+    "href":    "singleSelect",
+    "class":   "singleSelect",
+    "label":   "singleSelect"
+  },
+  {
+    "active":  "",
+    "visible": false,
+    "tag":     "dateTimeLocal",
+    "href":    "dateTimeLocal",
+    "class":   "dateTimeLocal",
+    "label":   "dateTimeLocal"
+  }
+]

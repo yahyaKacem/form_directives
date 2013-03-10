@@ -1,0 +1,10 @@
+.wrapper > .demo, .wrapper > .code{
+  border: 1px solid #999;
+  min-height: 550px;
+  padding: 9.5px;
+  border-radius: 4px;
+}
+.wrapper > .code {
+  background-color: #444;
+  color: white;
+}
